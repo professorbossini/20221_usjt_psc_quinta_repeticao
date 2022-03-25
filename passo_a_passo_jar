@@ -1,0 +1,10 @@
+1. criar pasta/arquivo META-INF/MANIFEST.MF
+
+2.Conteúdo do arquivo:
+Manifest-Version: 1.0
+Created-By: 17.0.2 (Amazon.com Inc.)
+Main-Class: Exemplo1
+
+3. jar -cmf  META-INF/MANIFEST.MF programa.jar  Exemplo1.class
+
+4. Clicar com o direito no programa.jar e escolher Abrir com >> JVM
